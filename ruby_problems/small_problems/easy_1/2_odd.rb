@@ -1,6 +1,6 @@
 #Write a method that takes one integer argument(positive or negative or zero) and returns true if the number's absolute value is odd.
 def is_odd?(num)
-  num.odd? ? (true) : (false)
+  num % 2 == 0 ? (false) : (true)
 end
 
 puts is_odd?(2)    # => false
